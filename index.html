@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Center</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo.jpeg" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand text-light" href="#">RAID<span>HOST</span></a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <i class="bx bx-menu-alt-right navbar-toggler-icon"></i>
+          </button>
+
+          <div
+            id="offcanvasNavbar"
+            class="offcanvas offcanvas-end navbar-collapse"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
+                <i class="bx bx-x"></i>
+              </button>
+            </div>
+
+            <div class="navbar-nav d-flex gap-1 offcanvas-body">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="#home-id"
+                >Home</a
+              >
+              <a class="nav-link text-light" href="#services-id">Services</a>
+              <a class="nav-link text-light" href="#games-id">Games</a>
+              <a class="nav-link text-light" href="#faq-id">F.A.Q</a>
+              <a class="nav-link text-light" href="#control-id">C & Panel</a>
+              <button class="btns" style="margin-left: 0.5rem">
+                Login <i class="bx bx-chevron-down"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid d-flex align-items-center home" id="home-id">
+        <div class="container">
+          <div class="home-info py-3">
+            <h1>LEFT 4 DEAD <span>HOSTING</span></h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              aliquid sint dolor. Alias, odit eligendi.
+            </p>
+            <button class="btns">VIEW PLANS</button>
+          </div>
+        </div>
+      </div>
+      <span id="services-id" class="mb-3"> </span>
+      <div class="container text-center text-light services">
+        <h2 class="mb-5">Our Services</h2>
+        <div class="container d-flex flex-column gap-4">
+          <div class="row row-gap-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="card align-items-center gap-2 pt-4">
+                <i class="bx bx-cloud-drizzle"></i>
+                <div class="card-body">
+                  <h5 class="card-title">99.9% UPTIME GUARANTEE</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sint, incidunt officiis esse modi nobis ex.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card align-items-center gap-2 pt-4">
+                <i class="bx bx-shield-quarter"></i>
+                <div class="card-body">
+                  <h5 class="card-title">GUARD PROTECTION</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sint, incidunt officiis esse modi nobis ex.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card align-items-center gap-2 pt-4">
+                <i class="bx bxs-joystick"></i>
+                <div class="card-body">
+                  <h5 class="card-title">DEDICATED GAMES SERVERS</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sint, incidunt officiis esse modi nobis ex.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="card align-items-center gap-2 pt-4">
+                <i class="bx bx-support"></i>
+                <div class="card-body">
+                  <h5 class="card-title">24/7/365 SUPPORT</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sint, incidunt officiis esse modi nobis ex.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card align-items-center gap-2 pt-4">
+                <i class="bx bxs-timer"></i>
+                <div class="card-body">
+                  <h5 class="card-title">QUICK DEPLOYMENT</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sint, incidunt officiis esse modi nobis ex.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card align-items-center gap-2 pt-4">
+                <i class="bx bxs-server"></i>
+                <div class="card-body">
+                  <h5 class="card-title">FAST STORAGE</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sint, incidunt officiis esse modi nobis ex.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span id="games-id" class="mb-3"> </span>
+      <div class="container text-center text-light games">
+        <h2 class="mb-5">Chose from our popular game servers</h2>
+
+        <div class="row row-gap-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="card align-items-center gap-2">
+              <img src="./img/game-1.jpg" class="card-img-top" alt="game-1" />
+              <div class="card-body">
+                <h5 class="card-title">VALHEIM</h5>
+                <p class="card-text">
+                  Starting at <span class="text-primary">$5.99 / mo</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, veritatis!
+                </p>
+                <a href="#">Get Started</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card align-items-center gap-2">
+              <img src="./img/game-2.jpg" class="card-img-top" alt="game-2" />
+              <div class="card-body">
+                <h5 class="card-title">MINECRAFT</h5>
+                <p class="card-text">
+                  Starting at <span class="text-primary">$5.99 / mo</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, veritatis!
+                </p>
+                <a href="#">Get Started</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card align-items-center gap-2">
+              <img src="./img/game-3.jpg" class="card-img-top" alt="game-3" />
+              <div class="card-body">
+                <h5 class="card-title">CS GO</h5>
+                <p class="card-text">
+                  Starting at <span class="text-primary">$5.99 / mo</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, veritatis!
+                </p>
+                <a href="#">Get Started</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card align-items-center gap-2">
+              <img src="./img/game-4.jpg" class="card-img-top" alt="game-4" />
+              <div class="card-body">
+                <h5 class="card-title">WRECKFEST</h5>
+                <p class="card-text">
+                  Starting at <span class="text-primary">$5.99 / mo</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, veritatis!
+                </p>
+                <a href="#">Get Started</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card align-items-center gap-2">
+              <img src="./img/game-5.webp" class="card-img-top" alt="game-5" />
+              <div class="card-body">
+                <h5 class="card-title">GARRY MOD</h5>
+                <p class="card-text">
+                  Starting at <span class="text-primary">$5.99 / mo</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, veritatis!
+                </p>
+                <a href="#">Get Started</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card align-items-center gap-2">
+              <img src="./img/game-6.webp" class="card-img-top" alt="game-6" />
+              <div class="card-body">
+                <h5 class="card-title">GTA V</h5>
+                <p class="card-text">
+                  Starting at <span class="text-primary">$5.99 / mo</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, veritatis!
+                </p>
+                <a href="#">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span id="faq-id" class="mb-3"> </span>
+      <div class="container faq">
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center">
+            <div
+              class="faq-info py-3 d-flex flex-column align-items-lg-start align-items-center text-lg-start text-center"
+            >
+              <h3>F.A.Q</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                alias officiis tempore odio in quasi minus quos cupiditate
+                explicabo perferendis.
+              </p>
+              <button class="btns">SEE ALL F.A.Q</button>
+            </div>
+          </div>
+          <div class="col-lg-6 d-md-flex justify-content-md-center">
+            <img
+              src="./img/faq-img.png"
+              class="img-fluid faq-img"
+              alt="faq-img"
+            />
+          </div>
+        </div>
+      </div>
+      <span id="question-id" class="mb-3"> </span>
+      <div class="container questions">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 order-lg-1 order-2">
+            <div
+              class="accordion d-flex flex-column gap-3"
+              id="accordionExample"
+            >
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Which gamemodes can I install?
+                  </button>
+                </h3>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Nostrum doloribus tempore corrupti, sunt dolorum
+                      dignissimos, perspiciatis impedit eveniet assumenda vero
+                      quas rem amet ducimus delectus, sint iure sed velit? Enim
+                      eaque perspiciatis deserunt odit impedit sequi ea
+                      voluptatibus ex magnam quis nostrum fugit dolorum, quidem
+                      atque voluptatem et? Quo, eum?
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    How can I manage my Garry's Mod server?
+                  </button>
+                </h3>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Modi, numquam? Esse quod, tenetur accusamus corporis ea
+                      debitis dolorem. Sapiente earum quo aliquid ad deleniti
+                      autem? Nostrum molestiae error quasi, deserunt magni sed
+                      consequuntur placeat est fuga ex atque impedit provident
+                      iste illo quidem distinctio eveniet sunt inventore? Quae,
+                      dolor ipsa.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Is running a Garry's Mod server easy?
+                  </button>
+                </h3>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Dolorem, quos minima placeat, repellendus eaque ratione
+                      temporibus iure nulla pariatur nobis ad facilis fugiat.
+                      Ipsum dolores laboriosam consectetur debitis? Suscipit,
+                      illo.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Am I able to change the default map?
+                  </button>
+                </h3>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Natus in molestiae praesentium vero. Nesciunt nemo qui
+                      esse officiis ab in.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 pb-5 col-md-12 order-lg-2 order-1">
+            <div
+              class="question-info py-3 mx-4 d-flex flex-column align-items-lg-start align-items-center"
+            >
+              <h3 class="lh-base text-center text-lg-start">
+                FREQUENTLY ASKED <br />
+                QUESTIONS
+              </h3>
+              <p>If you have a question, we've got the answer!</p>
+              <button class="btns">HAVE QUESTİON ?</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span id="control-id" class="mb-3"> </span>
+      <div class="container-fluid control-panel py-5">
+        <div class="container d-flex flex-column gap-5">
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="panel-info text-c enter justify-content-center">
+                <h3 class="lh-base text-center">PTERODACTYL CONTROL PANEL</h3>
+                <p>A Panel thats fast and effeciant while still Look amazing</p>
+                <div class="panel-wrapper mx-auto">
+                  <div class="panel-item d-flex align-items-center gap-2">
+                    <i class="bx bxs-check-circle"></i>
+                    <p class="m-0">Manage all of your Game servers</p>
+                  </div>
+                  <div class="panel-item d-flex align-items-center gap-2">
+                    <i class="bx bxs-check-circle"></i>
+                    <p class="m-0">Pre Made Installer</p>
+                  </div>
+                  <div class="panel-item d-flex align-items-center gap-2">
+                    <i class="bx bxs-check-circle"></i>
+                    <p class="m-0">Fast Resposive Panel</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-12 mb-4">
+              <img
+                src="./img/control-panel-1.png"
+                class="img-fluid"
+                alt="control-panel-1"
+              />
+            </div>
+            <div class="col-lg-6 col-12">
+              <img
+                src="./img/control-panel-2.png"
+                class="img-fluid"
+                alt="control-panel-2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer">
+        <div class="row justify-content-center gap-5">
+          <div
+            class="col-lg-12 text-center d-flex flex-column gap-3 justify-content-center"
+          >
+            <span>RAIDHOST</span>
+            <div class="social-media-icon d-flex gap-3 justify-content-center">
+              <i class="bx bxl-facebook"></i>
+              <i class="bx bxl-twitter"></i>
+              <i class="bx bxl-instagram"></i>
+              <i class="bx bxl-discord"></i>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="row">
+              <div
+                class="col-md-4 mb-5 text-md-start text-center d-flex justify-content-center"
+              >
+                <div class="footer-nav d-flex flex-column gap-2">
+                  <h5>SERVER HOSTİNG</h5>
+                  <a href="#">Minecraft Hosting</a>
+                  <a href="#">Fivem Hosting</a>
+                  <a href="#">Rust Hosting</a>
+                  <a href="#">VPS Hosting</a>
+                </div>
+              </div>
+              <div
+                class="col-md-4 mb-5 text-md-start text-center d-flex justify-content-center"
+              >
+                <div class="footer-nav d-flex flex-column gap-2">
+                  <h5>COMPANY</h5>
+                  <a href="#">About Us</a>
+                  <a href="#">Contact Us</a>
+                  <a href="#">Terms Of Service</a>
+                  <a href="#">Privacy Policy</a>
+                </div>
+              </div>
+              <div
+                class="col-md-4 text-md-start text-center d-flex justify-content-center"
+              >
+                <div class="footer-nav d-flex flex-column gap-2">
+                  <h5>SUPPORT</h5>
+                  <a href="#">Submit a Ticket</a>
+                  <a href="#">Online Chat</a>
+                  <a href="#">Service Status</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container footer-cop d-flex justify-content-between align-items-center py-4"
+      >
+        <span>© RaidHost</span>
+        <div class="pay-methods d-flex gap-3">
+          <i class="bx bxl-visa"></i>
+          <i class="bx bxl-mastercard"></i>
+          <i class="bx bxl-paypal"></i>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
